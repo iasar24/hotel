@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="750dp">
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="219dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="100dp"
+            android:fontFamily="cursive"
+            android:text=" Marriott"
+            android:textSize="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="411dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="570dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hotelimg2"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="215dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginBottom="100dp"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="140dp"
+            android:layout_marginTop="980dp"
+            android:layout_marginEnd="0dp"
+            android:backgroundTint="#FF5722"
+            android:text="Book Now@RS320" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="195dp"
+            android:layout_height="64dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="200dp"
+            android:fontFamily="cursive"
+            android:text="Taj Groups"
+            android:textSize="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/taj"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="0dp"
+
+
+            android:layout_marginBottom="100dp"
+            android:text="Taj Hotels is a chain of luxury hotels and a subsidiary of the Indian Hotels Company Limited,[1] headquartered in Mumbai, India."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginHorizontal="140dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="460dp"
+            android:backgroundTint="#FF5722"
+            android:text="Book Now@RS320" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="393dp"
+            android:layout_height="79dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="140dp"
+            android:layout_marginTop="900dp"
+            android:layout_marginEnd="18dp"
+            android:text="Marriott Hotels  Resorts is Marriott International's brand of full-service hotels and resorts based in Bethesda, Maryland."
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="158dp"
+            android:layout_height="76dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="160dp"
+            android:layout_marginTop="1050dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginRight="100dp"
+            android:height="50dp"
+            android:fontFamily="cursive"
+            android:text="Sarovar"
+            android:textSize="44dp" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/tv4"
+            android:layout_marginTop="-1dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/hotelimg"
+
+            />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="396dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="150dp"
+            android:layout_marginTop="1450dp"
+            android:layout_marginEnd="15dp"
+            android:text="Sarovar Hotels Resorts are a chain of resorts and hotels throughout India" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1500dp"
+            android:backgroundTint="#FF5722"
+
+            android:text="Book Now at @RS320" />
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="1600dp"
+            android:height="50dp"
+            android:fontFamily="cursive"
+            android:text="The Leela Palace"
+            android:textSize="44dp"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/leela"
+            android:layout_width="match_parent"
+            android:layout_height="1400dp"
+            android:layout_below="@+id/tv4"
+            android:layout_marginTop="-1dp"
+            android:layout_marginRight="0dp"
+            app:srcCompat="@drawable/leela"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The Leela is an Indian luxury hotel chain founded in 1986 by C. P. Krishnan Nair and currently owned by Brookfield Asset Management"
+            android:layout_marginTop="2000dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/button5"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2100dp"
+            android:text="Book Now@RS320"
+            android:backgroundTint="#FF5722"/>
+
+
+    </RelativeLayout>
+</ScrollView>
